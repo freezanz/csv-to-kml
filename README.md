@@ -9,7 +9,7 @@ Non hai bisogno di un file CSV strutturato come con altri tool! Basta dire allo 
 
 ### Uso
 `MAPS_API=$MAPS_API ruby csv-to-kml.rb /path/to/csv /path/to/kml "Name Column" "Address Column"`
-Lo script estrarrà tutti le altre colonne e le metterà come descrizione. Lo script userà `ARGV[2]` e `ARGV[3]` per sapere rispettivamente la colonna nome e indirizzo
+Lo script estrarrà tutte le altre colonne e le metterà come descrizione. Lo script userà `ARGV[2]` e `ARGV[3]` per sapere rispettivamente la colonna nome e indirizzo
 
 # English
 ## csv_to_kml
