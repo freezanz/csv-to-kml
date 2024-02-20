@@ -8,7 +8,7 @@ Non hai bisogno di un file CSV strutturato come con altri tool! Basta dire allo 
 2. Nel tuo ~/.bashrc o ~/.bash_aliases o ~/.profile aggiungi `export MAPS_API=TUA_CHIAVE` per evitare di avere la chiave in chiaro nello script
 
 ### Uso
-`MAPS_API=$MAPS_API ruby csv-to-kml.rb /path/to/csv /path/to/kml "Name Column" "Address Column"`  
+`MAPS_API=$MAPS_API ruby csv_to_kml.rb /path/to/csv /path/to/kml "Name Column" "Address Column"`  
 Lo script estrarrà tutte le altre colonne e le metterà come descrizione. Lo script userà `ARGV[2]` e `ARGV[3]` per sapere rispettivamente la colonna nome e indirizzo  
 
 # English
@@ -21,6 +21,6 @@ You won't need a fixed CSV file like other tools! Just tell the script what the 
 2. In your ~/.bashrc or ~/.bash_aliases or ~/.profile file add `export MAPS_API=YOUR_KEY` to avoid having it cleartext in the script.
 
 ### Usage
-`MAPS_API=$MAPS_API ruby csv-to-kml.rb /path/to/csv /path/to/kml "Name Column" "Address Column"`  
+`MAPS_API=$MAPS_API ruby csv_to_kml.rb /path/to/csv /path/to/kml "Name Column" "Address Column"`  
 The script will extrapolate all the other columns and put it in the description. The script will use `ARGV[2]`and `ARGV[3]` to know name and location columns respectively
  
